@@ -8,32 +8,42 @@
 <body>
     
     
+  <!-- background -->
+  <div class="background">
+  </div>
+  <style>
+  .background {
+    background-image: url('https://media.discordapp.net/attachments/1074276808465334382/1107603857401446460/download.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    z-index: -100;
+  }
+  .center {
+    width: 300px;
+    margin: auto;
+  }
+  </style>
 
 
 <!-- judul text-->
 
-    <div class="wrapper"style="width: 500px;
-                               margin: auto;"><div class="welcome text"><center><img src="https://cdn.discordapp.com/attachments/1074276808465334382/1107560148861456424/f5c0fde7ebf2c6f0c538f155938d9dd9.png" alt="welcome to vampire forum" style="width:300px;height:30px" ></div></div></center>
+  <div class="judul" style="width:350px;margin: auto"><img src="https://cdn.discordapp.com/attachments/1074276808465334382/1107560148861456424/f5c0fde7ebf2c6f0c538f155938d9dd9.png"
+   style="width: 340px; "></div>
     
     <br><br>
 
 
  <!-- logo discord-->
    
-<center><img src="https://cdn.discordapp.com/attachments/1047310203961495672/1105323340392046613/c115df0262560e2c7673fc2e4ca50937.jpg" style="width:300px;height:300px;border: 2px solid black;"
-alt="server icon"></center>
+<div class="icon center"><img src="https://cdn.discordapp.com/attachments/1047310203961495672/1105323340392046613/c115df0262560e2c7673fc2e4ca50937.jpg" style="width:300px;height:300px;border: 2px solid black;"
+alt="server icon"></div>
 
-<!-- background -->
-<style>
-body {
-  background-image: url('https://media.discordapp.net/attachments/1074276808465334382/1107603857401446460/download.png');
-  
- 
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: cover;
-}
-</style>
 
 <!-- isi text -->
 <style>
@@ -49,14 +59,13 @@ body {
         
     }
     
-    
 </style>
 
-<div style="width: 700px; margin: auto;"><center><p>welcome to vampire forum,this is the place where you can make friend, play music, share your art or mybe discussing about your instrest</p></center></div>
+<div class="konten"><div style="width: auto; text-align: center; max-width: 700px; margin: auto;"><center><p>welcome to vampire forum,this is the place where you can make friend, play music, share your art or mybe discussing about your instrest</p></center></div></div>
 <br>
 <!-- tombol -->
 
-<center><a class="button-27" role="button" href="https://discord.gg/EHw2fJBg">Join our Discord</a></center>
+<div class="button-27" role="button" href="https://discord.gg/EHw2fJBg">Join our Discord</div>
 
 <style>
 .button-27 {
@@ -67,14 +76,13 @@ body {
   box-sizing: border-box;
   color: #FFFFFF;
   cursor: pointer;
-  display: inline-block;
   font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   font-size: 16px;
   font-weight: 600;
   line-height: normal;
-  margin: 0;
+  margin: auto;
   min-height: 60px;
-  min-width: 0;
+  min-width: 100px;
   outline: none;
   padding: 16px 24px;
   text-align: center;
@@ -83,7 +91,7 @@ body {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 3;
+  width: 300px;
   will-change: transform;
 }
 
